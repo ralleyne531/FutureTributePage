@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    background-color: black;
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: url("BackgroundImg.jpg");
+
+}
+header img{
+    position: relative;
+    left:70%;
+}
+nav{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+
+}
+nav a{
+    padding: 0 20%;
+    font-size: 2em;
+}
