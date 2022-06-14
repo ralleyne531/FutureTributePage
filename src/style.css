@@ -1,29 +1,37 @@
-body{
-    display: flex;
+body {
     background-color: black;
     color: white;
-    overflow-y: scroll;
-    overflow-x: hidden;
     flex-wrap: wrap;
 }
 header{
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    background-image: url("BackgroundImg.jpg");
-
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 1920px;
 }
-header img{
-    position: relative;
-    left:70%;
+header h1{
+    margin: 0;
 }
-nav{
+ header ul{
     display: flex;
-    position: relative;
-    align-items: flex-end;
+     list-style: none;
+}
+ header ul li{
+     margin: 0 100px;
+ }
+ li a{
+     background-color: white;
+     color:black;
+     border: 2px solid black;
+     padding: 5px 50px;
+     text-decoration: none;
+ }
+ li a:hover{
+     background-color: black;
+     border: 2px solid purple;
+     color:mediumpurple;
+ }
 
-}
-nav a{
-    padding: 0 20%;
-    font-size: 2em;
-}
