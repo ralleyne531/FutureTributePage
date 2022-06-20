@@ -3,7 +3,6 @@ body {
     background-color: black;
     color: white;
     flex-wrap: wrap;
-
 }
 header{
     display: flex;
@@ -14,7 +13,8 @@ header{
     position: fixed;
     top:0;
     width: 1920px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    z-index: 1;
 }
 header h1{
     margin: 0;
@@ -52,4 +52,5 @@ main{
     margin: 0;
     padding: 0;
 }
+
 
