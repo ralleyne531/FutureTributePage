@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'Permanent Marker';
+    src: url(Permanent_Marker/PermanentMarker-Regular.ttf)
+}
+
+body{
+    overflow-x:hidden;
+    overflow-y: scroll;
+    background-image: url("/wbackground.gif");
+    background-color: black;
+}
+
+#login{
+    background-color: black;
+    width: fit-content;
+    color:white;
+    opacity: 80%;
+    margin: 0 auto ;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    border: mediumpurple solid 7px;
+}
+
+#login section{
+    font-size: 4rem;
+    text-align: center;
+    color:rebeccapurple;
+}
+#login article{
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+}
+form,label,input{
+    font-size: 32pt;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 20px 0 20px;
+    flex-wrap: wrap;
+}
